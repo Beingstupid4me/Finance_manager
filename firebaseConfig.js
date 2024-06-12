@@ -3,14 +3,15 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBvAXx60iwDRBvLqK4knBEtDQVU9h4ErMQ",
-  authDomain: "stocks-manager-4c06d.firebaseapp.com",
-  projectId: "stocks-manager-4c06d",
-  storageBucket: "stocks-manager-4c06d.appspot.com",
-  messagingSenderId: "54530159942",
-  appId: "1:54530159942:web:3170e80bfe29832651a147",
-  measurementId: "G-BF6LZ3SRXM"
+  apiKey: "firebase_api_key",
+  authDomain: "firebase_authdomain_name",
+  projectId: "firebase_project_id",
+  storageBucket: "firebase_storage_bucket",
+  messagingSenderId: "firebase_sender_id",
+  appId: "firebase_app_id",
+  measurementId: "firebase_measurment_id"
 };
+
 
 export const app = initializeApp(firebaseConfig);
 
